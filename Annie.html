@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madison Jane Films</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #333;
+        }
+        header {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .hero {
+            height: 100vh;
+            background: url('hero.jpg') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 24px;
+        }
+        .content {
+            padding: 40px 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #77a6b6;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Madison Jane Films</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h2>Welcome to Madison Jane Films</h2>
+            <p>Capturing timeless moments</p>
+        </div>
+    </section>
+
+    <section id="about" class="content">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hey there! I'm Maddy, the creative force behind Madison Jane Films. With a passion for storytelling through the lens, I specialize in creating captivating videos and stunning photography. Whether it's a wedding, a corporate event, or a personal project, my goal is to turn your vision into a visual masterpiece. Follow my journey and explore my work on Instagram!</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="content">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="gallery">
+                <!-- Images will go here -->
+                <img src="photo1.jpg" alt="Portfolio Image 1">
+                <img src="photo2.jpg" alt="Portfolio Image 2">
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Let's create something amazing together! Reach out to me via email or follow me on social media.</p>
+            <p>Email: <a href="mailto:maddy@example.com">maddy@example.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Madison Jane Films. All rights reserved.</p>
+        <p>Follow me on <a href="https://www.instagram.com/madisonjanefilms/?hl=en">Instagram</a></p>
+    </footer>
+</body>
+</html>
